@@ -1,0 +1,23 @@
+body {
+	background-color: yellow;
+}
+
+a {
+	font-size: 60px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 5px solid;
+}
+
+a:hover {
+	color: magenta;
+	border-bottom: 15px dashed;
+}
+
+a:visited {
+	color: green;
+}
+
+a:active {
+	color: white;
+}
