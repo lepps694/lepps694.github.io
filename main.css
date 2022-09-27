@@ -1,8 +1,7 @@
 body {
-  /*background-image: url("imgs/flowers.jpg");*/
-  /*background-size: cover;*/
-  /*background-position: center;*/
-  background-color: orange;
+  background-image: url("imgs/flowers.jpg");
+  background-size: cover;
+  background-position: center;
   }
 
   .wrapper {
@@ -20,7 +19,7 @@ body {
     text-decoration: overline underline;
   }
   a {
-    color: black;
+    color: white;
   }
 
 
