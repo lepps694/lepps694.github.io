@@ -1,0 +1,46 @@
+body {
+  background-color: #4d6382;
+  /*background-image: url("imgs/treesLarge.jpeg");*/
+  /*background-size: cover;*/
+  /*background-position: initial;*/
+  /*background-repeat: no-repeat;*/
+}
+
+h1 {
+  color: #f2c57c;
+  font-family: Source Sans Pro;
+  background-color: #203a65;
+}
+img {
+max-width: 500px;
+margin-bottom: 20px;
+padding-right: 50px;
+padding-left: 50px;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#day {
+  border-color: #f2c57c ;
+  flex-basis: 70%;
+  order: 2;
+}
+#night {
+ border-color:#f2c57c ;
+ flex-basis: 70%;
+ order: 2;
+}
+p {
+  font-family: Source Sans Pro;
+  font-style: italic;
+  font-size: 50px;
+  color: #f2c57c;
+}
+.text {
+  padding left: 50px;
+  padding-right: 50px;
+}
+
