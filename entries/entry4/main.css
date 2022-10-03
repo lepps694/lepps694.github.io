@@ -1,3 +1,29 @@
 body {
-	background-color: seagreen;
+	background-color: black;
+}
+
+.class {
+
+}
+
+img {
+    height: 400px;
+    filter: blur(15px);
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+img:hover {
+filter: initial;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-size: 23px;
 }
