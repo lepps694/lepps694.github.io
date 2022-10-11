@@ -1,0 +1,57 @@
+
+body {
+  font-size: 16px;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
+}
+
+img {
+	width: 30vw;
+}
+
+.container {
+	display:flex;
+	padding:10px;
+	flex-direction: column;
+	align-items: center;
+
+	
+
+}
+
+.img {
+	margin: 10px 10px;
+}
+
+.img2 {
+	align-self: flex-start;
+}
+
+.img4 {
+	align-self: flex-start;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
