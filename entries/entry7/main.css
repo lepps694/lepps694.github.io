@@ -1,0 +1,132 @@
+img {
+	max-width: 30vw;
+	border-style: solid;
+	border-color: white;
+	border-width: 7px;
+}
+
+body{
+	background-color: black;
+	text-align: center;
+
+    background: linear-gradient(0deg, #000000, #000000, #c8aa04, #c88704, #000000, #000000);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 50s ease infinite;
+    -moz-animation: AnimationName 50s ease infinite;
+    animation: AnimationName 50s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+
+h1{
+	color: white;
+	font-family: 'Zen Tokyo Zoo', cursive;
+	font-size: 130px;
+	padding: 25px;
+	text-align: center;
+}
+h2{
+	font-family: griffith-gothic, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+p{
+	color: white;
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 23px;
+	padding: 20px;
+}
+
+.section1{
+	display: flex;
+	flex-flow: row-reverse;
+	align-items: center;
+	height: 100vh;
+	padding: 20px;
+}
+
+.section2{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	height: 100vh;
+	padding: 20px;
+}
+
+.section3{
+	display: flex;
+	flex-flow: row-reverse;
+	align-items: center;
+	height: 100vh;
+	padding: 20px;
+}
+
+.section4{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	height: 100vh;
+	padding: 20px;
+}
+
+.section5{
+	display: flex;
+	flex-flow: row-reverse;
+	align-items: center;
+	height: 100vh;
+	padding: 20px;
+}
+
+a {
+	color: white;
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 23px;
+	padding: 20px;
+}
+
+
+/* Media Query for mobile styles*/
+@media only screen and (max-width:  800px) {
+section {
+    padding: 25px;
+  }
+  h1 {
+    font-size: 6vh;
+  }
+
+.section5,.section4,.section3,.section2,.section1 {
+  flex-direction:  column-reverse;
+  height: initial;
+}
+
+.column-1, .column-2 {
+  width:  100%;
+}
+
+.column-1 {
+  padding-right:  0;
+  padding-bottom:  50px;
+}
+
+}

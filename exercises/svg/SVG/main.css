@@ -1,0 +1,34 @@
+body {
+	background-color: black;
+}
+
+path.egg {
+	max-width: 600px;
+}
+
+hover{
+	max-width: 800px;
+	cursor: pointer;
+}
+
+
+path.egg {
+	fill: white;
+}
+
+svg#utensils {
+	fill: white;
+	max-width: 2000px;
+}
+
+/*#yin-yang {
+	height: 500px;
+}
+
+circle.cls-1 {
+	fill: red;
+}
+
+path.cls-1{
+	fill: orange;
+}*/
