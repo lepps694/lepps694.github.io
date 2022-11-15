@@ -1,0 +1,20 @@
+body{
+	background-color: hotpink;
+}
+.wrapper {
+	background-color: red;
+	padding: 20px;
+	align-content: center;
+	text-align: center;
+	height: 50vh;
+}
+
+div{
+	font-family:  Courier;
+	color: white;
+	font-size: 30px;
+}
+
+.wrapper:hover{
+	background-color: yellow ;
+}
