@@ -26,7 +26,8 @@ function turnStreetOn(){
 }
 
 let street = document.querySelector(".street")
-street.addEventListener("click", turnStreetOn)
+street.addEventListener("click", turnStreetOn);
+
 
 
 
