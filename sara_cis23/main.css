@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+	text-align: center;
+	color: white;
+	}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+header{
+	font-family: sans-serif;
+	text-align: right;
+	margin: 10px;
+}
+
+.menu{
+	font-size: 100px;
+	font-family: sans-serif;
+	display: flex;
+	flex-flow: column;
+	text-align: initial;
+	padding-inline: 20px;
+	position: -webkit-sticky;
+	position:sticky;
+	top: 0;
+	color: navajowhite;
+}
+
+a{
+	margin-bottom: 30px;
+	color: navajowhite;
+}
+
+img{
+	max-width: 60vw;
+	margin-left: 40px;
+
+}
+
+
+.heart:hover {
+  cursor: pointer;
+  opacity: .8;
+ font-size: 200px;
+}
+
