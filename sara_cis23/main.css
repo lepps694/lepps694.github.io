@@ -39,6 +39,10 @@ img{
 	margin-left: 40px;
 
 }
+a:hover{
+	cursor: pointer;
+	text-decoration: blink;
+}
 
 
 .heart:hover {
