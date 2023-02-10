@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Week 2: Html Structure Analysis</title>
+
+    <!-- Adds: an internal stylesheet. -->
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .anchor-offset { scroll-margin-top: 40px; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+    </style>
+  </head>
+  <body style="background-color: limegreen;">
+    <header>
+      <h1>Core 2 Interaction: Lab –&nbsp;<em>Week 2: HTML Structure Analysis</em></h1>
+    </header>
+    <section id="table-of-contents" style="font-size: 23px;">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <!-- TODO: Add image tag with src attribute references your screenshot. -->
+      <img src="imgs/pic7.png" width="100%">
+    </section>
+    <section id="analysis" style="background-color:hotpink; width: 100vw;">
+      <h2>Analysis</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html" style="font-size: 15px;">
+          <!-- TODO: Replace with your version of a simplified structure -->
+          body
+            div#app
+              div
+                div.hidden lg:block lg:h-15
+                header.lg:bg-white fixed top-0 left-0 w-full z-40 transition
+                -margin duration-300
+
+                main
+                  div
+                    div.relative mb-12 lg-mb-24
+                      div.bg-brand-gray relative
+                        img
+                        div.sticky bottom-0
+                          div.fade-up big
+
+                        div.absolute top-0 left-0 w-full my-8
+                          div.px-8 mt-8 md:mt-0
+                        div.sticky bottom-0
+                      div.mt-4 md:mt-8 px-4 lg:px-8
+                        ul.sm:flex flex-wrap justify center -mx-4
+
+
+                        li.lg:w-1/3:mb-20
+                          a.group
+                            div
+                              div.notouch:group-hover:rounded-img pb-ratio-
+                              portrait relative bg-brand-gray overlfow-hidden 
+                              rounded-none transition-radius duration-400
+                              div.text-center
+                                h2.text-exl md:text-6xl mt-8 font-windsor
+                                break-words
+                                div.text-bump mt-8 font-janson px-2 max-w-prose 
+                                mx-auto whitespace-pre-linex
+                                  div.line-clamp-3 mb-4
+                                  div.line-clamp-3
+
+                        li
+
+
+                        li
+
+
+                        li
+                        .
+                        .
+                        .
+                        .
+
+
+          </pre>
+        </div>
+        <div id="analysis--text" style="font-size: 23px; width: 35vw;">
+          <!-- TODO: <p>Write a response!</p> -->
+          <a href="https://www.moreorlessmag.com/">More or Less Magazine</a>
+
+           <p>There were many dividers, some not named. It was well structured. This is the main page. Within it, there was a header with a divider icon that linked to things like shopping and subscribing. The right corner has a shopping car. Under the header, the large image showcases the most recent(?) article. The text with the link to the article and the name scrolls on top of the image. It's a sticky that starts from the overlap and then as you scroll, it gets back to its place. I could see that this webpage uses "position" to create interesting elements.
+           </p>
+
+           <p>The different articles are in an un-ordered list below the feature article. The list is consistent of links to the different articles. They all had the same format. Each had a hover effect that rounded the image. It was a cool way to signify the mouse. When hovering over the article, some of them had other images or even a video that replaced the original image for the article. In the code, you can see a new line pop up that was hidden before. The line would say:<code>div.absolute inset-0 bg-brand-grayer</code>. I was unable to inspect it well because everytime I tried to click on the div it would go away.</p>
+
+           <p>I think that I had a bit harder time reading this, or many other websites because I'm not used to seeing the styling in the html code. </p>
+        </div>
+      </div>
+    </section>
+    <section id="analysis--questions" style="font-size: 23px;">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+          <!-- TODO: Ask some questions! -->
+          I'm not sure why all the styling or sizing is done in classes? Or maybe they're not done there, but it's in the name.
+        </li>
+        <li>Was the chnage in image when hovering a js code? Why did it only show up in the code when hovering and then disappear?</li>
+      </ul>
+    </section>
+  </body>
+</html>
