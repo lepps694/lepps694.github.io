@@ -11,7 +11,7 @@ body{
 	text-align: left;
 	width: 90%;
 	border-bottom: 3px solid black;
-		font-family: "le-havre", sans-serif;
+	font-family: "le-havre", sans-serif;
 	font-weight: 900;
 	font-style: normal;
 }
@@ -36,7 +36,7 @@ h2{
 	justify-content: center;
 	flex-direction: row;
 	margin-top: 100px;
-	border: 1px solid blue;
+/*	border: 1px solid blue;*/
 }
 
 .circle1{
@@ -73,7 +73,7 @@ h2{
 	margin-left: 5%;
 	margin-right: 5%;
 	column-gap: 10%;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 }
 
 .s1{
@@ -106,6 +106,45 @@ h2{
 	border-radius: 50%;
 	background: #000000 ;
 }
+
+
+/*js*/
+
+.s1on{
+	background-color:#ee9700 ;
+}
+
+.s1:hover{
+  cursor: pointer;
+  opacity: .8;
+  border-width: thick;
+  border-style: solid;
+  border-color: white;
+}
+
+.s2on{
+	background-color:#ea5823 ;
+}
+
+.s2:hover{
+  cursor: pointer;
+  opacity: .8;
+  border-width: thick;
+  border-style: solid;
+  border-color: white;
+}
+
+.s3on{
+	background-color:#e41d2a ;
+}
+
+.s4on{
+	background-color: #000000;
+	color: white;
+}
+
+
+
 
 /* Tablet breakpoint */
 @media (min-width: 768px){
