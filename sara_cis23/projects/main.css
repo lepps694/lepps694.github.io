@@ -1,17 +1,16 @@
 body{
-	background-color: darkolivegreen;
+	background-color: lightpink;
 	font-family: sans-serif;
 }
 
-.menu{
-	margin-top: 40px;
+.manu{
 	display: flex;
 	flex-direction: column;
-	font-size: 40px;
 }
 
 a{
-	color: lightgrey;
+	font-size: 40px;
+	color: darkolivegreen;
 }
 
 a:hover{
