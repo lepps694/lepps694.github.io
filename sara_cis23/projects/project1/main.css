@@ -1,0 +1,195 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+div{
+	text-align: center;
+	height: 100vh;
+}
+
+p{
+	font-size: 23px;
+	padding-left:50px ;
+	padding-right:50px ;
+}
+
+.title{
+	line-height: 0.5;
+
+}
+
+.page4 {
+	background-color:navajowhite;
+}
+
+
+h1{
+	font-size: 100px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+.titleandpage1{
+	background: linear-gradient(180deg, #000000 0%, rgba(225, 255, 255, 0.26) 69%);
+}
+
+.page1{
+	color: black;
+}
+
+.page2{
+	margin: 50px;
+	padding-top: 20%;
+	background-color: black;
+	color: black;
+	text-shadow: 200px -100px 4px rgba(0, 0, 0, 0.25);
+}
+.page2text{
+position: relative;
+z-index: 2;
+}
+
+.circle1 {
+  position: absolute;
+  height: 600px;
+  width: 660px;
+  left: 10%;
+  top: 230%;
+  background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 50%;}
+
+.circle2{
+  position: absolute;
+  height: 500px;
+  width: 560px;
+  left: 60%;
+  top: 275%;
+  background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 70%;}
+
+
+
+
+
+
+.page4text{
+position: absolute;
+color:black;
+z-index: 2;
+}
+
+.behind {
+	z-index:0;
+}
+
+
+.rectangle1{
+background-color: black;
+position: absolute;
+width: 22px;
+height: 100%;
+left: 50%;
+top: 465%;
+}
+.rectangle2{
+background-color: black;
+position: absolute;
+width: 22px;
+height: 100%;
+left: 37%;
+top: 465%;
+}
+
+.rectangle3{
+background-color: black;
+position: absolute;
+width: 22px;
+height: 100%;
+left: 62%;
+top: 465%;
+}
+
+.rectangle4{
+background-color: black;
+position: absolute;
+width: 22px;
+height: 100%;
+left: 25%;
+top: 465%;
+}
+
+.rectangle5{
+background-color: black;
+position: absolute;
+width: 22px;
+height: 100%;
+left: 75%;
+top: 465%;
+}
+
+.bigrec1{
+background-color: black;
+position: absolute;
+width: 200px;
+height: 100%;
+left: 0%;
+top: 465%;
+}
+
+.bigrec2{
+background-color: black;
+position: absolute;
+width: 200px;
+height: 100%;
+right: 0%;
+top: 465%;
+}
+
+.smallrec1{
+background-color: black;
+position: absolute;
+width: 1700px;
+height: 17px;
+top: 553%;
+}
+
+.smallrec2{
+background-color: black;
+position: absolute;
+width: 1700px;
+height: 17px;
+top: 547%;
+}
+
+.smallrec3{
+background-color: black;
+position: absolute;
+width: 1700px;
+height: 17px;
+top: 541%;
+}
+
+.smallrec4{
+background-color: black;
+position: absolute;
+width: 1700px;
+height: 17px;
+top: 480%;
+}
+
+.smallrec5{
+background-color: black;
+position: absolute;
+width: 1700px;
+height: 17px;
+top: 465%;
+}
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+body{
+	background-color: floralwhite;
+	display: flex;
+	flex-direction: column;
+}
+
+.title{
+	padding-bottom: 30px;
+	margin: 100px 50px;
+	display: table;
+	text-align: left;
+	width: 90%;
+	border-bottom: 3px solid black;
+		font-family: "le-havre", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+h1{
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 70px;
+	display: table-cell;
+	width: 90%;
+}
+h2{
+	font-size: 40px;
+	display: table-cell;
+	width: 10%;
+}
+
+.bigcircles{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 100px;
+	border: 1px solid blue;
+}
+
+.circle1{
+	position: relative;
+	min-height: 1100px;
+	min-width: 1100px;
+	border-radius: 50%;
+	background: #ee9700;
+}
+
+.circle2{
+	position: absolute;
+	min-height: 800px;
+	min-width: 800px;
+	border-radius: 50%;
+	background: #ea5823 ;
+	align-self: center;
+}
+
+.circle3{
+	position: absolute;
+	min-height: 500px;
+	min-width: 500px;
+	border-radius: 50%;
+	background: #e41d2a ;
+	align-self: center;
+}
+
+.smallcircles{
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 150px;
+	margin-left: 5%;
+	margin-right: 5%;
+	column-gap: 10%;
+	border: 1px solid black;
+}
+
+.s1{
+	position: relative;
+	min-height: 200px;
+	min-width: 200px;
+	border-radius: 50%;
+	background:#ee9700  ;
+}
+.s2{
+	position: relative;
+	min-height: 200px;
+	min-width: 200px;
+	border-radius: 50%;
+	background: #ea5823 ;
+}
+
+.s3{
+	position: relative;
+	min-height: 200px;
+	min-width: 200px;
+	border-radius: 50%;
+	background: #e41d2a ;
+}
+
+.s4{
+	position: relative;
+	min-height: 200px;
+	min-width: 200px;
+	border-radius: 50%;
+	background: #000000 ;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px){
+
+.circle1{
+	max-height: 30vh;
+	max-width: 30vw;
+}
+
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px){
+
+.circle1{
+	max-height: 50vh;
+	max-width: 50vw;
+}
+
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px){
+
+.circle1{
+	max-height: 75vh;
+	max-width: 75vw;
+}
+
+}
