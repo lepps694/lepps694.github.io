@@ -20,7 +20,7 @@ p{
 }
 
 .page4 {
-	background-color:navajowhite;
+	background-color:antiquewhite;
 }
 
 
@@ -33,12 +33,13 @@ h2{
 }
 
 .titleandpage1{
-	background: linear-gradient(180deg, #000000 0%, rgba(225, 255, 255, 0.26) 69%);
+background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0.3) 69.27%);
 }
 
 .page1{
 	color: black;
 }
+
 
 .page2{
 	margin: 50px;
@@ -90,7 +91,7 @@ z-index: 2;
 background-color: black;
 position: absolute;
 width: 22px;
-height: 100%;
+height: 101%;
 left: 50%;
 top: 465%;
 }
@@ -98,7 +99,7 @@ top: 465%;
 background-color: black;
 position: absolute;
 width: 22px;
-height: 100%;
+height: 101%;
 left: 37%;
 top: 465%;
 }
@@ -107,7 +108,7 @@ top: 465%;
 background-color: black;
 position: absolute;
 width: 22px;
-height: 100%;
+height: 101%;
 left: 62%;
 top: 465%;
 }
@@ -116,7 +117,7 @@ top: 465%;
 background-color: black;
 position: absolute;
 width: 22px;
-height: 100%;
+height: 101%;
 left: 25%;
 top: 465%;
 }
@@ -134,7 +135,7 @@ top: 465%;
 background-color: black;
 position: absolute;
 width: 200px;
-height: 100%;
+height: 101%;
 left: 0%;
 top: 465%;
 }
@@ -143,7 +144,7 @@ top: 465%;
 background-color: black;
 position: absolute;
 width: 200px;
-height: 100%;
+height: 101%;
 right: 0%;
 top: 465%;
 }
@@ -188,7 +189,12 @@ height: 17px;
 top: 465%;
 }
 
+.page5{
+padding-top: 100px;
+background: linear-gradient(180deg, #000000 8.85%, rgba(240, 161, 8, 0.51) 48.44%, #000000 77.08%);
 
+color:black;
+}
 
 
 
