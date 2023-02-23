@@ -1,6 +1,9 @@
 body{
 	background-color: black;
 	color: white;
+	font-family: "area-normal", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 div{
@@ -9,7 +12,7 @@ div{
 }
 
 p{
-	font-size: 23px;
+	font-size: 20px;
 	padding-left:50px ;
 	padding-right:50px ;
 }
@@ -38,6 +41,7 @@ background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0.3) 69.27%)
 
 .page1{
 	color: black;
+	padding-bottom: 0px;
 }
 
 
