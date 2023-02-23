@@ -20,7 +20,7 @@ p{
 }
 
 .page4 {
-	background-color:antiquewhite;
+	background-color:white;
 }
 
 
@@ -79,6 +79,8 @@ z-index: 2;
 .page4text{
 position: absolute;
 color:black;
+padding-left: 150px;
+padding-right:150px;
 z-index: 2;
 }
 
@@ -93,7 +95,7 @@ position: absolute;
 width: 22px;
 height: 101%;
 left: 50%;
-top: 465%;
+top: 459%;
 }
 .rectangle2{
 background-color: black;
@@ -101,7 +103,7 @@ position: absolute;
 width: 22px;
 height: 101%;
 left: 37%;
-top: 465%;
+top: 459%;
 }
 
 .rectangle3{
@@ -110,7 +112,7 @@ position: absolute;
 width: 22px;
 height: 101%;
 left: 62%;
-top: 465%;
+top: 459%;
 }
 
 .rectangle4{
@@ -119,7 +121,7 @@ position: absolute;
 width: 22px;
 height: 101%;
 left: 25%;
-top: 465%;
+top: 459%;
 }
 
 .rectangle5{
@@ -128,7 +130,7 @@ position: absolute;
 width: 22px;
 height: 100%;
 left: 75%;
-top: 465%;
+top: 459%;
 }
 
 .bigrec1{
@@ -137,7 +139,7 @@ position: absolute;
 width: 200px;
 height: 101%;
 left: 0%;
-top: 465%;
+top: 459%;
 }
 
 .bigrec2{
@@ -146,7 +148,7 @@ position: absolute;
 width: 200px;
 height: 101%;
 right: 0%;
-top: 465%;
+top: 459%;
 }
 
 .smallrec1{
@@ -154,7 +156,7 @@ background-color: black;
 position: absolute;
 width: 1700px;
 height: 17px;
-top: 553%;
+top: 547%;
 }
 
 .smallrec2{
@@ -162,7 +164,7 @@ background-color: black;
 position: absolute;
 width: 1700px;
 height: 17px;
-top: 547%;
+top: 541%;
 }
 
 .smallrec3{
@@ -170,7 +172,7 @@ background-color: black;
 position: absolute;
 width: 1700px;
 height: 17px;
-top: 541%;
+top: 535%;
 }
 
 .smallrec4{
@@ -178,7 +180,7 @@ background-color: black;
 position: absolute;
 width: 1700px;
 height: 17px;
-top: 480%;
+top: 474%;
 }
 
 .smallrec5{
@@ -186,11 +188,15 @@ background-color: black;
 position: absolute;
 width: 1700px;
 height: 17px;
-top: 465%;
+top: 459%;
+}
+
+.page3{
+	z-index: 0;
 }
 
 .page5{
-padding-top: 100px;
+padding-top: 300px;
 background: linear-gradient(180deg, #000000 8.85%, rgba(240, 161, 8, 0.51) 48.44%, #000000 77.08%);
 
 color:black;
