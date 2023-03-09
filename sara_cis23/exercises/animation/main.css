@@ -1,0 +1,46 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: pink;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+h3{
+  font-style: italic;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+  font-size: 150px;
+  border: red solid 5px;
+}
+
+.item {
+  text-align: center;
+  animation: spinType 3s linear infinite;
+}
+
+.item:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0turn);
+  }
+
+  
+  100% {
+    transform: rotate(1turn);
+  }
+}
