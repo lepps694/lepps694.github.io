@@ -1,0 +1,92 @@
+body {
+	width: 100vw;
+	font-family: sans-serif;
+	padding: var(--spacing);
+	padding-bottom: 33vh;
+	font-family: 'Lora', serif;
+	display: inline-block;
+
+}
+
+#filtered{
+	columns: 3;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+
+.title{
+	width: 20vw;
+	font-size: 25px;
+	font-family: 'Lora', serif;
+	font-style: medium italic;
+	font-weight: 500;
+}
+
+.img1{
+	height: 40vh;
+}
+
+.img2{
+	height: 40vh;
+}
+
+#collection{
+columns: 3;
+margin-left: 140px;
+}
+
+ .book{
+	width: 20vw;
+	margin: 20px;
+ } 
+
+  .img1 {
+	opacity: 1;
+	position: relative;
+	pointer-events: auto;
+  }
+  
+  .img2 {
+	opacity: 0;
+	position:absolute; /* change position to relative */
+	transform: translateX(-300px); /* move 300 pixels to the left */
+	z-index: 1;
+  }
+  
+  .img1:hover {
+	opacity: 0;
+  }
+  
+  .img1:hover + .img2 {
+	opacity: 1;
+  }
+  
+  /* .tab {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+  } */
+
+  .filters{
+	text-decoration: none;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	align-items: center;
+	top: 10%;
+	position: fixed;
+	align-self: 50%;
+	
+
+	
+
+  }
+  
+ 
