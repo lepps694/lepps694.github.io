@@ -9,6 +9,7 @@ body {
 }
 
 #filtered{
+	margin-top: 10%;
 	columns: 3;
 }
 
@@ -83,10 +84,145 @@ margin-left: 140px;
 	top: 10%;
 	position: fixed;
 	align-self: 50%;
+	background-color: antiquewhite;
+	color: black;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	padding: 0rem 2rem; 
+	}
 	
-
-	
-
-  }
   
+ .buttons{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+ }
+
+ #sara-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+ #camille-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+}
+
  
+ #fiction-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+ #non-fiction-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+ #cooking-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+ #art-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+ #started-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+ #finished-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+ #unbegun-btn{
+	height: 4vh;
+	width: 65vw;
+	background-color: bisque;
+	clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+	transform: rotate(-90deg);
+	font-size: 0.8rem;
+	padding: 0rem 1.8rem; /* increase the left and right padding */
+	border: none;
+	cursor: pointer;
+ }
+
+ #unbegun-btn:hover{
+	background-color: burlywood;
+ }
+ #finished-btn:hover{
+	background-color: burlywood;
+ }
+ #started-btn:hover{
+	background-color: burlywood;
+ }
+ #art-btn:hover{
+	background-color: burlywood;
+ }
+ #cooking-btn:hover{
+	background-color: burlywood;
+ }
+ #non-fiction-btn:hover{
+	background-color: burlywood;
+ }
+ #fiction-btn:hover{
+	background-color: burlywood;
+ }
+ #camille-btn:hover{
+	background-color: burlywood;
+ }
+ #sara-btn:hover{
+	background-color: burlywood;
+ }
