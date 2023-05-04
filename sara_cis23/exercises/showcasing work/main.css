@@ -12,44 +12,19 @@ img {
 }
 
 .video{
-	
+
 }
 
+.container{
+	display: flex;
+	flex-direction: column;
+}
 
 .title{
 	max-width: 60vw;
 }
 
 
-
-.img1{
-	top: 40px;
-	position: fixed;
-	
-}
-
-.img3{
-
-	position: sticky;
-
-}
-
-.img2{
-	
-	position: fixed;
-}
-
-.img3{
-	position: fixed;
-}
-
-.img4{
-	position: fixed;
-}
-
-.img5{
-	position: fixed;
-}
 
 .img1,.img2,.img3,.img4,.img5{
 max-width: 20vw;
