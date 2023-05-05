@@ -1,0 +1,18 @@
+body{
+    font-size: 23px;
+}
+ #manhattan-list{
+    color: blue;
+ }
+
+ #brooklyn-list{
+    color: red;
+ }
+
+ #bronx-list{
+    color: darkgreen;
+ }
+
+ #queens-list {
+    color: yellow;
+ }

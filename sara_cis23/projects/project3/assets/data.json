@@ -7,8 +7,9 @@
     "borough": "Brooklyn",
     "site": "Triangle",
     "type": "Sculpture",
-    "installed": "10/24/2022",
-    "removed": "09/24/2022"
+    "removed": "10/24/2022",
+    "installed": "9/24/2022",
+    "duration": "30"
   },
   {
     "title": "Meanwhile",
@@ -18,8 +19,9 @@
     "borough": "Manhattan",
     "site": "Plaza",
     "type": "Asphalt Mural",
+    "removed": "09/18/2023",
     "installed": "10/18/2022",
-    "removed": "09/18/2023"
+    "duration": "335"
   },
   {
     "title": "To Sit A While",
@@ -29,8 +31,9 @@
     "borough": "Mahattan",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "10/22/2022",
     "installed": "09/30/2022",
-    "removed": "10/22/2022"
+    "duration": "22"
   },
   {
     "title": "Babel",
@@ -40,8 +43,9 @@
     "borough": "Brooklyn",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "01/26/2023",
     "installed": "09/26/2022",
-    "removed": "01/26/2023"
+    "duration": "122"
   },
   {
     "title": "4 Regions",
@@ -51,8 +55,9 @@
     "borough": "Queens",
     "site": "Sidewalk Extension",
     "type": "Asphalt Mural",
+    "removed": "08/28/2023",
     "installed": "09/28/2022",
-    "removed": "08/28/2023"
+    "duration": "334"
   },
   {
     "title": "Primary Directional",
@@ -62,8 +67,9 @@
     "borough": "Brooklyn",
     "site": "Plaza",
     "type": "Asphalt Mural",
+    "removed": "04/15/2023",
     "installed": "09/12/2022",
-    "removed": "04/15/2023"
+    "duration": "215"
   },
   {
     "title": "Ganymede with Jupiter's Eagle",
@@ -73,8 +79,9 @@
     "borough": "Manhattan",
     "site": "Triangle",
     "type": "Sculpture",
+    "removed": "01/15/2023",
     "installed": "08/28/2022",
-    "removed": "01/15/2023"
+    "duration": "140"
   },
   {
     "title": "Dancer",
@@ -84,8 +91,9 @@
     "borough": "Manhattan",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "11/07/2022",
     "installed": "08/29/2022",
-    "removed": "11/07/2022"
+    "duration": "70"
   },
   {
     "title": "When We See Us",
@@ -95,8 +103,9 @@
     "borough": "Manhttan",
     "site": "Sidewalk",
     "type": "Art Display Case",
+    "removed": "06/26/2023",
     "installed": "09/26/2022",
-    "removed": "06/26/2023"
+    "duration": "273"
   },
   {
     "title": "Harlem is … Healing",
@@ -106,8 +115,9 @@
     "borough": "Manhattan",
     "site": "Sidewalk",
     "type": "Art Display Case",
+    "removed": "12/17/2022",
     "installed": "08/11/2022",
-    "removed": "12/17/2022"
+    "duration": "128"
   },
   {
     "title": "Downtown Brooklyn Asphalt Art",
@@ -117,8 +127,9 @@
     "borough": "Brooklyn",
     "site": "Sidewalk Extension",
     "type": "Asphalt Mural",
+    "removed": "07/15/2023",
     "installed": "08/15/2022",
-    "removed": "07/15/2023"
+    "duration": "334"
   },
   {
     "title": "Barrier Beautification 2022",
@@ -128,8 +139,9 @@
     "borough": "Queens",
     "site": "Jersey Barriers",
     "type": "Mural",
+    "removed": "07/15/2023",
     "installed": "08/15/2022",
-    "removed": "07/15/2023"
+    "duration": "334"
   },
   {
     "title": "Asphalt Art Activations 2022",
@@ -139,8 +151,9 @@
     "borough": "Manhattan",
     "site": "Sidewalk Extension",
     "type": "Asphalt Mural",
+    "removed": "07/10/2023",
     "installed": "08/10/2022",
-    "removed": "07/10/2023"
+    "duration": "334"
   },
   {
     "title": "Barrier Reefs",
@@ -150,8 +163,9 @@
     "borough": "Manhattan",
     "site": "Jersey Barriers",
     "type": "Mural",
+    "removed": "05/23/2023",
     "installed": "06/23/2022",
-    "removed": "05/23/2023"
+    "duration": "334"
   },
   {
     "title": "Barrier Beautification 2022",
@@ -161,8 +175,9 @@
     "borough": "Brooklyn",
     "site": "Jersey Barriers",
     "type": "Mural",
+    "removed": "05/23/2023",
     "installed": "06/23/2022",
-    "removed": "05/23/2023"
+    "duration": "334"
   },
   {
     "title": "I am a Stranger and I am Moving",
@@ -172,8 +187,9 @@
     "borough": "Manhattan",
     "site": "Plaza",
     "type": "Vinyl",
+    "removed": "09/23/2022",
     "installed": "06/23/2022",
-    "removed": "09/23/2022"
+    "duration": "92"
   },
   {
     "title": "Spiral of Life",
@@ -183,8 +199,9 @@
     "borough": "Brooklyn",
     "site": "Plaza",
     "type": "Sculptural Seating",
+    "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "removed": "04/30/2023"
+    "duration": "334"
   },
   {
     "title": "Pedestrians",
@@ -194,8 +211,9 @@
     "borough": "Brooklyn",
     "site": "Bridge",
     "type": "Mural",
+    "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "removed": "04/30/2023"
+    "duration": "334"
   },
   {
     "title": "Ripples of Peace and Calm",
@@ -205,8 +223,9 @@
     "borough": "Manhattan",
     "site": "Sidewalk Extension",
     "type": "Asphalt Mural",
+    "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "removed": "04/30/2023"
+    "duration": "334"
   },
   {
     "title": "Bit, Bridle & Reins",
@@ -216,8 +235,9 @@
     "borough": "Manhattan",
     "site": "Concrete Barriers",
     "type": "Vinyl",
+    "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "removed": "04/30/2023"
+    "duration": "334"
   },
   {
     "title": "Nature Quilt",
@@ -227,8 +247,9 @@
     "borough": "Bronx",
     "site": "Street Seat",
     "type": "Asphalt Mural",
+    "removed": "05/04/2023",
     "installed": "06/04/2022",
-    "removed": "05/04/2023"
+    "duration": "334"
   },
   {
     "title": "Bird's Eye View",
@@ -238,8 +259,9 @@
     "borough": "Bronx",
     "site": "Sidewalk Extension",
     "type": "Asphalt Mural",
+    "removed": "04/07/2023",
     "installed": "05/07/2022",
-    "removed": "04/07/2023"
+    "duration": "335"
   },
   {
     "title": "The Smile",
@@ -249,8 +271,9 @@
     "borough": "Bronx",
     "site": "Sidewalk Extension",
     "type": "Asphalt Mural",
+    "removed": "04/07/2023",
     "installed": "05/07/2022",
-    "removed": "04/07/2023"
+    "duration": "335"
   },
   {
     "title": "Hippo Ballerina, Hippo Ballerina Pirouette & Harlequin Pirouette",
@@ -260,8 +283,9 @@
     "borough": "Manhattan",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "01/15/2023",
     "installed": "05/02/2022",
-    "removed": "01/15/2023"
+    "duration": "258"
   },
   {
     "title": "Toro del Oro",
@@ -271,8 +295,9 @@
     "borough": "Manhattan",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "10/20/2022",
     "installed": "05/02/2022",
-    "removed": "10/20/2022"
+    "duration": "171"
   },
   {
     "title": "Nature of Technology",
@@ -282,8 +307,9 @@
     "borough": "Manhattan",
     "site": "Sidewalk Extension",
     "type": "Asphalt Mural",
+    "removed": "03/15/2023",
     "installed": "04/15/2022",
-    "removed": "03/15/2023"
+    "duration": "334"
   },
   {
     "title": "Here",
@@ -293,8 +319,9 @@
     "borough": "Manhattan",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "10/01/2022",
     "installed": "04/10/2022",
-    "removed": "10/01/2022"
+    "duration": "174"
   },
   {
     "title": "Faces of the Wild",
@@ -304,8 +331,9 @@
     "borough": "Manhattan",
     "site": "Triangle",
     "type": "Sculpture",
+    "removed": "07/31/2022",
     "installed": "04/01/2022",
-    "removed": "07/31/2022"
+    "duration": "121"
   },
   {
     "title": "Sphinx",
@@ -315,8 +343,9 @@
     "borough": "Manhattan",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "04/19/2022",
     "installed": "03/08/2022",
-    "removed": "04/19/2022"
+    "duration": "42"
   },
   {
     "title": "In Their Hands: Women Taking Ownership of Peace",
@@ -326,8 +355,9 @@
     "borough": "Brooklyn",
     "site": "Plaza",
     "type": "Sculpture/Photography",
+    "removed": "03/20/2022",
     "installed": "03/08/2022",
-    "removed": "03/20/2022"
+    "duration": "12"
   },
   {
     "title": "In Honor of Black History Month",
@@ -337,8 +367,9 @@
     "borough": "Brooklyn",
     "site": "Bridge",
     "type": "Projection",
+    "removed": "02/26/2022",
     "installed": "02/26/2022",
-    "removed": "02/26/2022"
+    "duration": "0"
   },
   {
     "title": "Light Year",
@@ -348,18 +379,20 @@
     "borough": "Brooklyn",
     "site": "Bridge",
     "type": "Projection",
+    "removed": "12/01/2022",
     "installed": "01/06/2022",
-    "removed": "12/01/2022"
+    "duration": "329"
   },
   {
     "title": "Passage",
     "artist": "Serge Maheu + Creos",
     "partner": "Garment District Alliance",
     "location": "Broadway between 39th Street and 40th Street",
-    "borough": "",
+    "borough": "Manhattan",
     "site": "Plaza",
     "type": "Sculpture",
+    "removed": "02/06/2022",
     "installed": "01/06/2022",
-    "removed": "02/06/2022"
+    "duration": "31"
   }
 ]
