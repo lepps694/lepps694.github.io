@@ -12,7 +12,7 @@ function renderItems(data) {
 	let bronxList =[];
 	let queensList =[];
 
-	// Sort data by boroough
+	// Sort data by borough
 	data.forEach(function(item) {
 		if (item.borough == 'Manhattan') {
 			manhattanList.push(item);
@@ -22,6 +22,7 @@ function renderItems(data) {
 			bronxList.push(item);
 		} else if (item.borough == 'Queens') 
 				queensList.push(item);
+
 	});
 
 	
@@ -29,20 +30,21 @@ function renderItems(data) {
 	manhattanList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<li class="artwork">
-				<p class="title">${item.title}</p>
-				<p class="artist"> Artist: ${item.artist}</p>
-				<p class="partner">Partner: ${item.partner}</p>
-				<p class="location">${item.location}</p>
-				<p class="borough">${item.borough}</p>
-				<p class="site">Site Type: ${item.site}</p>
-				<p class="type">Project Type: ${item.type}</p>
-				<p class="installed">Installed: ${item.installed}</p>
-				<p class="removed">Removed${item.removed}</p>
-				<p class="duration">Days On Site:${item.duration}</p>
-				<div style="width: ${item.duration * 5}px; height: 10px; background: blue;"></div>
-			</li>
-			</a>
+			<div class="artwork manhattan">
+				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
+				<div class="metadata">
+					<p class="title">${item.title}</p>
+					<p class="artist"> Artist: ${item.artist}</p>
+					<p class="partner">Partner: ${item.partner}</p>
+					<p class="location">!${item.location}</p>
+					<p class="borough">${item.borough}</p>
+					<p class="site">Site Type: ${item.site}</p>
+					<p class="type">Project Type: ${item.type}</p>
+					<p class="installed">Installed: ${item.installed}</p>
+					<p class="removed">Removed${item.removed}</p>
+					<p class="duration">Days On Site:${item.duration}</p>
+				</div>
+			</div>
 			`
 		manhattanEl.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
@@ -51,67 +53,67 @@ function renderItems(data) {
 	brooklynList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<li class="artwork">
-				<p class="title">${item.title}</p>
-				<p class="artist"> Artist: ${item.artist}</p>
-				<p class="partner">Partner: ${item.partner}</p>
-				<p class="location">${item.location}</p>
-				<p class="borough">${item.borough}</p>
-				<p class="site">Site Type: ${item.site}</p>
-				<p class="type">Project Type: ${item.type}</p>
-				<p class="installed">Installed: ${item.installed}</p>
-				<p class="removed">Removed${item.removed}</p>
-				<p class="duration">Days On Site:${item.duration}</p>
-				<div style="width: ${item.duration * 5}px; height: 10px; background: red;"></div>
-			</li>
-			</a>
+			<div class="artwork brooklyn">
+				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
+				<div class="metadata">
+					<p class="title">${item.title}</p>
+					<p class="artist"> Artist: ${item.artist}</p>
+					<p class="partner">Partner: ${item.partner}</p>
+					<p class="location">${item.location}</p>
+					<p class="borough">${item.borough}</p>
+					<p class="site">Site Type: ${item.site}</p>
+					<p class="type">Project Type: ${item.type}</p>
+					<p class="installed">Installed: ${item.installed}</p>
+					<p class="removed">Removed${item.removed}</p>
+					<p class="duration">Days On Site:${item.duration}</p>
+				</div>
+			</div>
 			`
 		brooklynEl.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
-
 	})
 
 	bronxList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<li class="artwork">
-				<p class="title">${item.title}</p>
-				<p class="artist"> Artist: ${item.artist}</p>
-				<p class="partner">Partner: ${item.partner}</p>
-				<p class="location">${item.location}</p>
-				<p class="borough">${item.borough}</p>
-				<p class="site">Site Type: ${item.site}</p>
-				<p class="type">Project Type: ${item.type}</p>
-				<p class="installed">Installed: ${item.installed}</p>
-				<p class="removed">Removed${item.removed}</p>
-				<p class="duration">Days On Site:${item.duration}</p>
-				<div style="width: ${item.duration * 5}px; height: 10px; background: green;"></div>
-			</li>
-			</a>
+			<div class="artwork bronx">
+				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
+				<div class="metadata">
+					<p class="title">${item.title}</p>
+					<p class="artist"> Artist: ${item.artist}</p>
+					<p class="partner">Partner: ${item.partner}</p>
+					<p class="location">${item.location}</p>
+					<p class="borough">${item.borough}</p>
+					<p class="site">Site Type: ${item.site}</p>
+					<p class="type">Project Type: ${item.type}</p>
+					<p class="installed">Installed: ${item.installed}</p>
+					<p class="removed">Removed${item.removed}</p>
+					<p class="duration">Days On Site:${item.duration}</p>
+				</div>
+			</div>
 			`
 		bronxEl.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
-
 	})
 
 	queensList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<li class="artwork">
-				<p class="title">${item.title}</p>
-				<p class="artist"> Artist: ${item.artist}</p>
-				<p class="partner">Partner: ${item.partner}</p>
-				<p class="location">${item.location}</p>
-				<p class="borough">${item.borough}</p>
-				<p class="site">Site Type: ${item.site}</p>
-				<p class="type">Project Type: ${item.type}</p>
-				<p class="installed">Installed: ${item.installed}</p>
-				<p class="removed">Removed${item.removed}</p>
-				<p class="duration">Days On Site:${item.duration}</p>
-				<div style="width: ${item.duration * 5}px; height: 10px; background: yellow;"></div>
-			</li>
-			</a>
+			<div class="artwork queens">
+				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
+				<div class="metadata">
+					<p class="title">${item.title}</p>
+					<p class="artist"> Artist: ${item.artist}</p>
+					<p class="partner">Partner: ${item.partner}</p>
+					<p class="location">${item.location}</p>
+					<p class="borough">${item.borough}</p>
+					<p class="site">Site Type: ${item.site}</p>
+					<p class="type">Project Type: ${item.type}</p>
+					<p class="installed">Installed: ${item.installed}</p>
+					<p class="removed">Removed${item.removed}</p>
+					<p class="duration">Days On Site:${item.duration}</p>
+				</div>
+			</div>
 			`
 		queensEl.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
-
 	})
 }
 
