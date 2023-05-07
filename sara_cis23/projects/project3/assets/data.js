@@ -20,8 +20,8 @@ function renderItems(data) {
 			brooklynList.push(item);
 		} else if (item.borough == 'Bronx') {
 			bronxList.push(item);
-		} else if (item.borough == 'Queens') 
-				queensList.push(item);
+		} else if (item.borough == 'Queens') {
+				queensList.push(item);}
 
 	});
 
@@ -33,10 +33,10 @@ function renderItems(data) {
 			<div class="artwork manhattan">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">${item.title}</p>
+					<p class="title">"${item.title}"</p>
 					<p class="artist"> Artist: ${item.artist}</p>
 					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location">!${item.location}</p>
+					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
 					<p class="borough">${item.borough}</p>
 					<p class="site">Site Type: ${item.site}</p>
 					<p class="type">Project Type: ${item.type}</p>
@@ -56,10 +56,10 @@ function renderItems(data) {
 			<div class="artwork brooklyn">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">${item.title}</p>
+					<p class="title">"${item.title}"</p>
 					<p class="artist"> Artist: ${item.artist}</p>
 					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location">${item.location}</p>
+					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
 					<p class="borough">${item.borough}</p>
 					<p class="site">Site Type: ${item.site}</p>
 					<p class="type">Project Type: ${item.type}</p>
@@ -78,10 +78,10 @@ function renderItems(data) {
 			<div class="artwork bronx">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">${item.title}</p>
+					<p class="title">"${item.title}"</p>
 					<p class="artist"> Artist: ${item.artist}</p>
 					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location">${item.location}</p>
+					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
 					<p class="borough">${item.borough}</p>
 					<p class="site">Site Type: ${item.site}</p>
 					<p class="type">Project Type: ${item.type}</p>
@@ -100,10 +100,10 @@ function renderItems(data) {
 			<div class="artwork queens">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">${item.title}</p>
+					<p class="title">"${item.title}"</p>
 					<p class="artist"> Artist: ${item.artist}</p>
 					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location">${item.location}</p>
+					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
 					<p class="borough">${item.borough}</p>
 					<p class="site">Site Type: ${item.site}</p>
 					<p class="type">Project Type: ${item.type}</p>
@@ -118,8 +118,6 @@ function renderItems(data) {
 }
 
 
-
-
 fetch('assets/data.json')
 	.then(function(response) {
 		return response.json();	
@@ -129,4 +127,97 @@ fetch('assets/data.json')
 		renderItems(data) // In reverse order
 	})
 
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
+function manhattanBtn(){
+	document.getElementById("brooklyn-list").style.display = "none";
+	document.getElementById("bronx-list").style.display = "none";
+	document.getElementById("queens-list").style.display = "none";
+	document.getElementById("manhattan-list").style.display = "flex";
+
+
+	document.getElementById("manhattan-list").style.width ="100%";
+	
+	const container = document.getElementById('manhattan-list');
+	const children = container.children;
+
+		const numChildren = children.length;
+		for (let i = 0; i < numChildren; i++) {
+		children[i].style.flexGrow = 1;
+		}
+//target metadata to move//
+document.querySelector(".metadata").style.position ="relative";
+
+
+
+
+
+}
+
+function brooklynBtn(){
+	document.getElementById("manhattan-list").style.display = "none";
+	document.getElementById("bronx-list").style.display = "none";
+	document.getElementById("queens-list").style.display = "none";
+	document.getElementById("brooklyn-list").style.display = "flex";
+
+
+	document.getElementById("brooklyn-list").style.width ="100%";
+	
+	const container = document.getElementById('brooklyn-list');
+	const children = container.children;
+
+		const numChildren = children.length;
+		for (let i = 0; i < numChildren; i++) {
+		children[i].style.flexGrow = 1;
+}
+}
+
+function bronxBtn(){
+	document.getElementById("manhattan-list").style.display = "none";
+	document.getElementById("brooklyn-list").style.display = "none";
+	document.getElementById("queens-list").style.display = "none";
+	document.getElementById("bronx-list").style.display = "flex";
+
+
+	document.getElementById("bronx-list").style.width ="100%";
+	
+	const container = document.getElementById('bronx-list');
+	const children = container.children;
+
+		const numChildren = children.length;
+		for (let i = 0; i < numChildren; i++) {
+		children[i].style.flexGrow = 1;
+}
+}
+
+function queensBtn(){
+	document.getElementById("manhattan-list").style.display = "none";
+	document.getElementById("brooklyn-list").style.display = "none";
+	document.getElementById("bronx-list").style.display = "none";
+	document.getElementById("queens-list").style.display = "flex";
+
+	document.getElementById("queens-list").style.width ="100%";
+	
+	const container = document.getElementById('queens-list');
+	const children = container.children;
+
+		const numChildren = children.length;
+		for (let i = 0; i < numChildren; i++) {
+		children[i].style.flexGrow = 1;
+}
+}
+
+function refresh(){
+	window.location.reload();
+}
+
+var canvas = document.getElementById("starfield"),
+context = canvas.getContext("2d"),
+stars = 500;
+
+for (var i = 0; i < stars; i++) {
+    x = Math.random() * canvas.offsetWidth;
+    y = Math.random() * canvas.offsetHeight;
+   context.fillStyle = "white";
+    context.fillRect(x,y,1,1);
+}

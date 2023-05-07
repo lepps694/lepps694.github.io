@@ -2,10 +2,57 @@ body{
     height:100vh;
     width: 100vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 20px;
     font-family: sans-serif;
     background-color: rgb(7, 8, 51);
+}
+
+h1{
+    color: aliceblue;
+}
+
+button{
+    font-size: 30px;
+    width: 4vw;
+    height: 2vw;
+    margin-left: 10px;
+    background:-webkit-radial-gradient(#f9c1f0, #851d5f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    border:none;
+    width: max-content;
+    
+}
+
+#manhattanBtn{
+    background:-webkit-radial-gradient(#ffdd99, #7d2564);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+#brooklynBtn{
+    background:-webkit-radial-gradient(#e8a3cd, #721f81);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+#bronxBtn{
+    background:-webkit-radial-gradient(#f9c1f0, #132da3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+#queensBtn{
+    background:-webkit-radial-gradient(#c1e5f9, #1625cc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
  #manhattan-list{
@@ -43,6 +90,7 @@ body{
     justify-content: space-between;
     align-items: end;
 }
+
  .artwork{
     display: flex;
     flex-direction: row;
@@ -92,3 +140,18 @@ background: linear-gradient(0deg, rgba(85,211,252,1) 5%, rgba(5,59,187,1) 100%);
     cursor: pointer;
 
  }
+
+ button:hover{
+    cursor: pointer;
+   font-size: 32px;
+    
+ }
+
+ canvas {
+    position:fixed;
+    background: rgb(7, 8, 51);;
+    z-index: -1;
+    width: 100vw;
+}
+
+

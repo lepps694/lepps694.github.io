@@ -3,16 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/bb94aa9b65.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/main.css">
 	<script defer src="assets/data.js"></script>
 	<title>NYC Data</title>
 </head>
 <body>
-<div class="container">
-<div id="manhattan-list"></div>
-<div id="brooklyn-list"></div>
-<div id="bronx-list"></div>
-<div id="queens-list"></div>
+<div class="head">
+	<h1>Temporary Public Art in NYC</h1>
+	<button id="allBurroughs" onclick="refresh()">All Buroughs</button>
+	<button id="manhattanBtn" onclick="manhattanBtn()"><i class="fa-sharp fa-solid fa-location-dot"></i> Manhattan</button>
+	<button id="brooklynBtn" onclick="brooklynBtn()"><i class="fa-sharp fa-solid fa-location-dot"></i> Brooklyn</button>
+	<button id="bronxBtn" onclick="bronxBtn()"><i class="fa-sharp fa-solid fa-location-dot"></i> Bronx</button>
+	<button id="queensBtn" onclick="queensBtn()"><i class="fa-sharp fa-solid fa-location-dot"></i> Queens</button>
 </div>
+<div class="container">
+	<div id="manhattan-list"></div>
+	<div id="brooklyn-list"></div>
+	<div id="bronx-list"></div>
+	<div id="queens-list"></div>
+</div>
+
+<canvas id="starfield" width="750" height="500"></canvas>
+
 </body>
 </html>
