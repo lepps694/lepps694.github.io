@@ -1,6 +1,6 @@
 body{
-    height:100vh;
-    width: 100vw;
+    height:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-size: 20px;
@@ -16,24 +16,30 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+}
+
+.boroughs{
+    display: flex;
+    flex-direction: row;
 }
 
 button{
-    font-size: 30px;
-    width: 4vw;
-    height: 2vw;
+    font-size: 23px;
+    width:min-content;
+    height: min-content;
     margin-left: 10px;
     background:-webkit-radial-gradient(#f9c1f0, #851d5f);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     border:none;
-    width: max-content;
+    
     
 }
 
 button:hover{
     cursor: pointer;
-   font-size: 32px;
+   font-size: 27px;
     
  }
 
@@ -128,11 +134,13 @@ background: linear-gradient(0deg, rgba(85,211,252,1) 5%, rgba(5,59,187,1) 100%);
 
  .metadata {
     display: none;
-    position: fixed;
+    position:absolute;
     z-index: 1;
-    top: 10%;
+    top: 20%;
     left: 40%;
     width: 18vw;
+    font-size: 15px;
+    line-height: 100%;
    
  }
 
@@ -149,13 +157,26 @@ background: linear-gradient(0deg, rgba(85,211,252,1) 5%, rgba(5,59,187,1) 100%);
 
  }
 
-
-
  canvas {
     position:fixed;
     background: rgb(7, 8, 51);;
     z-index: -1;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
 }
 
+@media (max-width: 1000px){
+    .metadata {font-size: 12px;  height: 10vh; top: 33%; line-height: 100%;
+}
+.head{
+    flex-direction: column;
+}
 
+button {font-size: 15px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+}
