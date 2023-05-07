@@ -129,15 +129,18 @@ fetch('assets/data.json')
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+//the buttons to showcase specific burrough//
 function manhattanBtn(){
 	document.getElementById("brooklyn-list").style.display = "none";
 	document.getElementById("bronx-list").style.display = "none";
 	document.getElementById("queens-list").style.display = "none";
 	document.getElementById("manhattan-list").style.display = "flex";
 
-
+//setting up the winodw for the flexGrow//
 	document.getElementById("manhattan-list").style.width ="100%";
-	
+
+//flexGrow to spread out the divs to fill the screen//		
 	const container = document.getElementById('manhattan-list');
 	const children = container.children;
 
@@ -145,24 +148,20 @@ function manhattanBtn(){
 		for (let i = 0; i < numChildren; i++) {
 		children[i].style.flexGrow = 1;
 		}
-//target metadata to move//
+
+//target metadata to move during this function//
 document.querySelector(".metadata").style.position ="relative";
-
-
-
-
-
 }
 
+//repeat for each burrough//
 function brooklynBtn(){
 	document.getElementById("manhattan-list").style.display = "none";
 	document.getElementById("bronx-list").style.display = "none";
 	document.getElementById("queens-list").style.display = "none";
 	document.getElementById("brooklyn-list").style.display = "flex";
 
-
 	document.getElementById("brooklyn-list").style.width ="100%";
-	
+
 	const container = document.getElementById('brooklyn-list');
 	const children = container.children;
 
