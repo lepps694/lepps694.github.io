@@ -155,6 +155,26 @@ right: 0%;
 top: 459%;
 }
 
+.Bigrec1{
+background-color: black;
+position: absolute;
+width: 200px;
+height: 101%;
+left: 0%;
+top: 359%;
+z-index: 1;
+}
+
+.Bigrec2{
+background-color: black;
+position: absolute;
+width: 200px;
+height: 101%;
+right: 0%;
+top: 359%;
+z-index: 1;
+}
+
 .smallrec1{
 background-color: black;
 position: absolute;
