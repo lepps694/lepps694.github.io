@@ -11,8 +11,46 @@ img {
 	border-radius: 30px;
 }
 
-.video{
+h1{
+	font-size:110px;
+}
 
+.h1{
+	width: 30vw;
+	margin: 0;
+}
+
+.part1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 0;
+	
+}
+
+.topImgs{
+
+}
+.part2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+
+.books{
+	display: flex;
+	flex-direction: column;
+}
+video{
+	width: 80vw;
+	height: 70vh;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+	align-items: center;
 }
 
 .container{
@@ -21,11 +59,16 @@ img {
 }
 
 .title{
-	max-width: 60vw;
+	width: 69vw;
+	margin-top: 30px;
 }
 
 
 
 .img1,.img2,.img3,.img4,.img5{
 max-width: 20vw;
+}
+
+.im2{
+	transform: rotate(45deg);
 }

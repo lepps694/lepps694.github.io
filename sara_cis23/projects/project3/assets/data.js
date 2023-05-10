@@ -149,9 +149,13 @@ function manhattanBtn(){
 		children[i].style.flexGrow = 1;
 		}
 
-//target metadata to move during this function//
-document.querySelector(".metadata").style.position ="relative";
-}
+		const manhattanList = document.querySelectorAll(".metadata");
+		manhattanList.forEach(element => {
+		  element.style.position = "relative";
+		});
+	}
+
+
 
 //repeat for each burrough//
 function brooklynBtn(){
