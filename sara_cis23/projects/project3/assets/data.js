@@ -30,19 +30,24 @@ function renderItems(data) {
 	manhattanList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<div class="artwork manhattan">
+			<div class="artwork manhattan" onclick="makeActive(event)">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">"${item.title}"</p>
-					<p class="artist"> Artist: ${item.artist}</p>
-					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
-					<p class="borough">${item.borough}</p>
-					<p class="site">Site Type: ${item.site}</p>
-					<p class="type">Project Type: ${item.type}</p>
-					<p class="installed">Installed: ${item.installed}</p>
-					<p class="removed">Removed${item.removed}</p>
-					<p class="duration">Days On Site:${item.duration}</p>
+					<div class="metadata-image">
+						<img src="${item.img}" />
+					</div>
+					<div class="metadata-text">
+						<p class="title">"${item.title}"</p>
+						<p class="artist"> Artist: ${item.artist}</p>
+						<p class="partner">Partner: ${item.partner}</p>
+						<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
+						<p class="borough">${item.borough}</p>
+						<p class="site">Site Type: ${item.site}</p>
+						<p class="type">Project Type: ${item.type}</p>
+						<p class="installed">Installed: ${item.installed}</p>
+						<p class="removed">Removed${item.removed}</p>
+						<p class="duration">Days On Site:${item.duration}</p>
+					</div>
 				</div>
 			</div>
 			`
@@ -53,19 +58,24 @@ function renderItems(data) {
 	brooklynList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<div class="artwork brooklyn">
+			<div class="artwork brooklyn" onclick="makeActive(event)">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">"${item.title}"</p>
-					<p class="artist"> Artist: ${item.artist}</p>
-					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
-					<p class="borough">${item.borough}</p>
-					<p class="site">Site Type: ${item.site}</p>
-					<p class="type">Project Type: ${item.type}</p>
-					<p class="installed">Installed: ${item.installed}</p>
-					<p class="removed">Removed${item.removed}</p>
-					<p class="duration">Days On Site:${item.duration}</p>
+					<div class="metadata-image">
+						<img src="${item.img}" />
+					</div>
+					<div class="metadata-text">
+						<p class="title">"${item.title}"</p>
+						<p class="artist"> Artist: ${item.artist}</p>
+						<p class="partner">Partner: ${item.partner}</p>
+						<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
+						<p class="borough">${item.borough}</p>
+						<p class="site">Site Type: ${item.site}</p>
+						<p class="type">Project Type: ${item.type}</p>
+						<p class="installed">Installed: ${item.installed}</p>
+						<p class="removed">Removed${item.removed}</p>
+						<p class="duration">Days On Site:${item.duration}</p>
+					</div>
 				</div>
 			</div>
 			`
@@ -75,19 +85,24 @@ function renderItems(data) {
 	bronxList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<div class="artwork bronx">
+			<div class="artwork bronx" onclick="makeActive(event)">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">"${item.title}"</p>
-					<p class="artist"> Artist: ${item.artist}</p>
-					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
-					<p class="borough">${item.borough}</p>
-					<p class="site">Site Type: ${item.site}</p>
-					<p class="type">Project Type: ${item.type}</p>
-					<p class="installed">Installed: ${item.installed}</p>
-					<p class="removed">Removed${item.removed}</p>
-					<p class="duration">Days On Site:${item.duration}</p>
+					<div class="metadata-image">
+						<img src="${item.img}" />
+					</div>
+					<div class="metadata-text">
+						<p class="title">"${item.title}"</p>
+						<p class="artist"> Artist: ${item.artist}</p>
+						<p class="partner">Partner: ${item.partner}</p>
+						<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
+						<p class="borough">${item.borough}</p>
+						<p class="site">Site Type: ${item.site}</p>
+						<p class="type">Project Type: ${item.type}</p>
+						<p class="installed">Installed: ${item.installed}</p>
+						<p class="removed">Removed${item.removed}</p>
+						<p class="duration">Days On Site:${item.duration}</p>
+					</div>
 				</div>
 			</div>
 			`
@@ -97,19 +112,24 @@ function renderItems(data) {
 	queensList.forEach(function(item) {
 		const itemDetails =
 			`	
-			<div class="artwork queens">
+			<div class="artwork queens" onclick="makeActive(event)">
 				<div class="line" style="height: ${item.duration / 365 * 100}vh;"></div>
 				<div class="metadata">
-					<p class="title">"${item.title}"</p>
-					<p class="artist"> Artist: ${item.artist}</p>
-					<p class="partner">Partner: ${item.partner}</p>
-					<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
-					<p class="borough">${item.borough}</p>
-					<p class="site">Site Type: ${item.site}</p>
-					<p class="type">Project Type: ${item.type}</p>
-					<p class="installed">Installed: ${item.installed}</p>
-					<p class="removed">Removed${item.removed}</p>
-					<p class="duration">Days On Site:${item.duration}</p>
+					<div class="metadata-image">
+						<img src="${item.img}" />
+					</div>
+					<div class="metadata-text">
+						<p class="title">"${item.title}"</p>
+						<p class="artist"> Artist: ${item.artist}</p>
+						<p class="partner">Partner: ${item.partner}</p>
+						<p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></button> ${item.location}</p>
+						<p class="borough">${item.borough}</p>
+						<p class="site">Site Type: ${item.site}</p>
+						<p class="type">Project Type: ${item.type}</p>
+						<p class="installed">Installed: ${item.installed}</p>
+						<p class="removed">Removed${item.removed}</p>
+						<p class="duration">Days On Site:${item.duration}</p>
+					</div>
 				</div>
 			</div>
 			`
@@ -153,6 +173,8 @@ function manhattanBtn(){
 		manhattanList.forEach(element => {
 		  element.style.left = "80%";
 
+//Nika's notes on getting image to the metadata//
+
 		//   let artworkimg = document.createElement("img");
 		//   artworkimg.src = "imgs/bit.jpg"
 		//   manhattanList.appendChild(artworkimg);
@@ -184,14 +206,15 @@ function brooklynBtn(){
 		});
 	}
 
+	//Trying to add an image to the .metadata of each list///
 	let items = document.querySelectorAll(".brooklyn-list");
 
-items.forEach(function(item) {
-  let img = document.createElement("img");
-  img.setAttribute("src", "assets/bit.jpg");
+	items.forEach(function(item) {
+  	let img = document.createElement("img");
+  	img.setAttribute("src", "assets/bit.jpg");
 
-  let metadata = item.querySelector(".metadata");
-  metadata.appendChild(img);
+  	let metadata = item.querySelector(".metadata");
+  	metadata.appendChild(img);
 });
 }
 
@@ -245,13 +268,30 @@ function refresh(){
 	window.location.reload();
 }
 
-var canvas = document.getElementById("starfield"),
-context = canvas.getContext("2d"),
-stars = 500;
+function renderStarsBackground() {
+	var canvas = document.getElementById("starfield"),
+	context = canvas.getContext("2d"),
+	stars = 500;
 
-for (var i = 0; i < stars; i++) {
-    x = Math.random() * canvas.offsetWidth;
-    y = Math.random() * canvas.offsetHeight;
-   context.fillStyle = "white";
-    context.fillRect(x,y,1,1);
+	for (var i = 0; i < stars; i++) {
+			x = Math.random() * canvas.offsetWidth;
+			y = Math.random() * canvas.offsetHeight;
+		context.fillStyle = "white";
+			context.fillRect(x,y,1,1);
+	}
+}
+
+renderStarsBackground();
+
+
+function makeActive(event) {
+	const lineEls = document.querySelectorAll('.artwork');
+
+	lineEls.forEach(function(el) {
+		el.classList.remove('active');
+	});
+
+	const target = event.target || event.srcElement;
+	const parentEl = target.parentElement;
+	parentEl.classList.add('active');
 }

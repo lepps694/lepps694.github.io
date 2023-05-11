@@ -9,7 +9,8 @@
     "type": "Sculpture",
     "removed": "10/24/2022",
     "installed": "9/24/2022",
-    "duration": "30"
+    "duration": "30",
+		"img": "assets/imgs/fatBoy.jpg"
   },
   {
     "title": "Meanwhile",
@@ -21,7 +22,8 @@
     "type": "Asphalt Mural",
     "removed": "09/18/2023",
     "installed": "10/18/2022",
-    "duration": "335"
+    "duration": "335",
+		"img": "assets/imgs/meanwhile.jpg"
   },
   {
     "title": "To Sit A While",
@@ -33,7 +35,8 @@
     "type": "Sculpture",
     "removed": "10/22/2022",
     "installed": "09/30/2022",
-    "duration": "22"
+    "duration": "22",
+		"img": "assets/imgs/toSit.jpg"
   },
   {
     "title": "Babel",
@@ -45,7 +48,8 @@
     "type": "Sculpture",
     "removed": "01/26/2023",
     "installed": "09/26/2022",
-    "duration": "122"
+    "duration": "122",
+		"img": "assets/imgs/babel.jpg"
   },
   {
     "title": "4 Regions",
@@ -57,7 +61,8 @@
     "type": "Asphalt Mural",
     "removed": "08/28/2023",
     "installed": "09/28/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/4regions.jpg"
   },
   {
     "title": "Primary Directional",
@@ -69,7 +74,8 @@
     "type": "Asphalt Mural",
     "removed": "04/15/2023",
     "installed": "09/12/2022",
-    "duration": "215"
+    "duration": "215",
+		"img": "assets/imgs/lizCollins.jpg"
   },
   {
     "title": "Ganymede with Jupiter's Eagle",
@@ -81,7 +87,8 @@
     "type": "Sculpture",
     "removed": "01/15/2023",
     "installed": "08/28/2022",
-    "duration": "140"
+    "duration": "140",
+		"img": "assets/assets/imgs/ganymede.jpg"
   },
   {
     "title": "Dancer",
@@ -93,7 +100,8 @@
     "type": "Sculpture",
     "removed": "11/07/2022",
     "installed": "08/29/2022",
-    "duration": "70"
+    "duration": "70",
+		"img": "assets/imgs/dancer.jpg"
   },
   {
     "title": "When We See Us",
@@ -105,7 +113,8 @@
     "type": "Art Display Case",
     "removed": "06/26/2023",
     "installed": "09/26/2022",
-    "duration": "273"
+    "duration": "273",
+		"img": "assets/imgs/whenWeSeeUs.jpg"
   },
   {
     "title": "Harlem is … Healing",
@@ -117,7 +126,8 @@
     "type": "Art Display Case",
     "removed": "12/17/2022",
     "installed": "08/11/2022",
-    "duration": "128"
+    "duration": "128",
+		"img": "assets/imgs/harlemIs.jpg"
   },
   {
     "title": "Downtown Brooklyn Asphalt Art",
@@ -129,7 +139,8 @@
     "type": "Asphalt Mural",
     "removed": "07/15/2023",
     "installed": "08/15/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/cekis.jpg"
   },
   {
     "title": "Barrier Beautification 2022",
@@ -141,7 +152,8 @@
     "type": "Mural",
     "removed": "07/15/2023",
     "installed": "08/15/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/adina.jpg"
   },
   {
     "title": "Asphalt Art Activations 2022",
@@ -153,7 +165,8 @@
     "type": "Asphalt Mural",
     "removed": "07/10/2023",
     "installed": "08/10/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/artActivation.jpg"
   },
   {
     "title": "Barrier Reefs",
@@ -165,7 +178,8 @@
     "type": "Mural",
     "removed": "05/23/2023",
     "installed": "06/23/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/alsionCy.jpg"
   },
   {
     "title": "Barrier Beautification 2022",
@@ -177,7 +191,8 @@
     "type": "Mural",
     "removed": "05/23/2023",
     "installed": "06/23/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/barrierBeau.jpg"
   },
   {
     "title": "I am a Stranger and I am Moving",
@@ -189,7 +204,8 @@
     "type": "Vinyl",
     "removed": "09/23/2022",
     "installed": "06/23/2022",
-    "duration": "92"
+    "duration": "92",
+		"img": "assets/imgs/Iam.jpg"
   },
   {
     "title": "Spiral of Life",
@@ -201,7 +217,8 @@
     "type": "Sculptural Seating",
     "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/spiral.jpg"
   },
   {
     "title": "Pedestrians",
@@ -213,7 +230,8 @@
     "type": "Mural",
     "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/pedestrians.jpg"
   },
   {
     "title": "Ripples of Peace and Calm",
@@ -225,7 +243,8 @@
     "type": "Asphalt Mural",
     "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/ripples.jpg"
   },
   {
     "title": "Bit, Bridle & Reins",
@@ -237,7 +256,8 @@
     "type": "Vinyl",
     "removed": "04/30/2023",
     "installed": "05/31/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/bit.jpg"
   },
   {
     "title": "Nature Quilt",
@@ -249,7 +269,8 @@
     "type": "Asphalt Mural",
     "removed": "05/04/2023",
     "installed": "06/04/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/natureQuilt.jpg"
   },
   {
     "title": "Bird's Eye View",
@@ -261,7 +282,8 @@
     "type": "Asphalt Mural",
     "removed": "04/07/2023",
     "installed": "05/07/2022",
-    "duration": "335"
+    "duration": "335",
+		"img": "assets/imgs/birdsEye.jpg"
   },
   {
     "title": "The Smile",
@@ -273,7 +295,8 @@
     "type": "Asphalt Mural",
     "removed": "04/07/2023",
     "installed": "05/07/2022",
-    "duration": "335"
+    "duration": "335",
+		"img": "assets/imgs/theSmile.jpg"
   },
   {
     "title": "Hippo Ballerina, Hippo Ballerina Pirouette & Harlequin Pirouette",
@@ -285,7 +308,8 @@
     "type": "Sculpture",
     "removed": "01/15/2023",
     "installed": "05/02/2022",
-    "duration": "258"
+    "duration": "258",
+		"img": "assets/imgs/hippoBallerina.jpg"
   },
   {
     "title": "Toro del Oro",
@@ -297,7 +321,8 @@
     "type": "Sculpture",
     "removed": "10/20/2022",
     "installed": "05/02/2022",
-    "duration": "171"
+    "duration": "171",
+		"img": "assets/imgs/toro.jpg"
   },
   {
     "title": "Nature of Technology",
@@ -309,7 +334,8 @@
     "type": "Asphalt Mural",
     "removed": "03/15/2023",
     "installed": "04/15/2022",
-    "duration": "334"
+    "duration": "334",
+		"img": "assets/imgs/natureOfTech.jpg"
   },
   {
     "title": "Here",
@@ -321,7 +347,8 @@
     "type": "Sculpture",
     "removed": "10/01/2022",
     "installed": "04/10/2022",
-    "duration": "174"
+    "duration": "174",
+		"img": "assets/imgs/here.jpg"
   },
   {
     "title": "Faces of the Wild",
@@ -333,7 +360,8 @@
     "type": "Sculpture",
     "removed": "07/31/2022",
     "installed": "04/01/2022",
-    "duration": "121"
+    "duration": "121",
+		"img": "assets/imgs/facesOfTheWild.jpg"
   },
   {
     "title": "Sphinx",
@@ -345,7 +373,8 @@
     "type": "Sculpture",
     "removed": "04/19/2022",
     "installed": "03/08/2022",
-    "duration": "42"
+    "duration": "42",
+		"img": "assets/imgs/sphinx.jpg"
   },
   {
     "title": "In Their Hands: Women Taking Ownership of Peace",
@@ -357,7 +386,8 @@
     "type": "Sculpture/Photography",
     "removed": "03/20/2022",
     "installed": "03/08/2022",
-    "duration": "12"
+    "duration": "12",
+		"img": "assets/imgs/inTheirHands.jpg"
   },
   {
     "title": "Light Year",
@@ -369,7 +399,8 @@
     "type": "Projection",
     "removed": "12/01/2022",
     "installed": "01/06/2022",
-    "duration": "329"
+    "duration": "329",
+		"img": "assets/imgs/lightYear.jpg"
   },
   {
     "title": "Passage",
@@ -381,6 +412,7 @@
     "type": "Sculpture",
     "removed": "02/06/2022",
     "installed": "01/06/2022",
-    "duration": "31"
+    "duration": "31",
+		"img": "assets/imgs/passage.jpg"
   }
 ]

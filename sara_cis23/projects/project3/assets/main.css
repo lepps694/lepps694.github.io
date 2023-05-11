@@ -182,3 +182,18 @@ h1{
 
 }
 
+.metadata-image {
+    display: none;
+}
+
+.metadata-image img {
+    width: 100px;
+}
+
+.artwork.active .metadata-image {
+    display: block;
+}
+
+.artwork.active .metadata-text {
+    display: none;
+}
