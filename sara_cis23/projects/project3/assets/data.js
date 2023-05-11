@@ -172,12 +172,8 @@ function manhattanBtn(){
 		const manhattanList = document.querySelectorAll(".metadata");
 		manhattanList.forEach(element => {
 		  element.style.left = "80%";
+		  element.style.top = "35%";
 
-//Nika's notes on getting image to the metadata//
-
-		//   let artworkimg = document.createElement("img");
-		//   artworkimg.src = "imgs/bit.jpg"
-		//   manhattanList.appendChild(artworkimg);
 		});
 	}
 
@@ -201,21 +197,11 @@ function brooklynBtn(){
 
 		const brooklynList = document.querySelectorAll(".metadata");
 		brooklynList.forEach(element => {
-		  element.style.left = "10%";
+		  element.style.left = "5%";
 	
 		});
 	}
 
-	//Trying to add an image to the .metadata of each list///
-	let items = document.querySelectorAll(".brooklyn-list");
-
-	items.forEach(function(item) {
-  	let img = document.createElement("img");
-  	img.setAttribute("src", "assets/bit.jpg");
-
-  	let metadata = item.querySelector(".metadata");
-  	metadata.appendChild(img);
-});
 }
 
 function bronxBtn(){
@@ -236,7 +222,7 @@ function bronxBtn(){
 
 		const bronxList = document.querySelectorAll(".metadata");
 		bronxList.forEach(element => {
-		  element.style.left = "80%";
+		  element.style.left = "76%";
 	
 		});
 }
