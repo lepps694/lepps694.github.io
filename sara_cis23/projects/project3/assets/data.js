@@ -171,8 +171,8 @@ function manhattanBtn(){
 
 		const manhattanList = document.querySelectorAll(".metadata");
 		manhattanList.forEach(element => {
-		  element.style.left = "80%";
-		  element.style.top = "35%";
+		  element.style.left = "76%";
+		  element.style.top = "30%";
 
 		});
 	}
