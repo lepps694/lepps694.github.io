@@ -151,7 +151,11 @@ function manhattanBtn(){
 
 		const manhattanList = document.querySelectorAll(".metadata");
 		manhattanList.forEach(element => {
-		  element.style.position = "relative";
+		  element.style.left = "80%";
+
+		//   let artworkimg = document.createElement("img");
+		//   artworkimg.src = "imgs/bit.jpg"
+		//   manhattanList.appendChild(artworkimg);
 		});
 	}
 
@@ -172,7 +176,23 @@ function brooklynBtn(){
 		const numChildren = children.length;
 		for (let i = 0; i < numChildren; i++) {
 		children[i].style.flexGrow = 1;
-}
+
+		const brooklynList = document.querySelectorAll(".metadata");
+		brooklynList.forEach(element => {
+		  element.style.left = "10%";
+	
+		});
+	}
+
+	let items = document.querySelectorAll(".brooklyn-list");
+
+items.forEach(function(item) {
+  let img = document.createElement("img");
+  img.setAttribute("src", "assets/bit.jpg");
+
+  let metadata = item.querySelector(".metadata");
+  metadata.appendChild(img);
+});
 }
 
 function bronxBtn(){
@@ -190,6 +210,12 @@ function bronxBtn(){
 		const numChildren = children.length;
 		for (let i = 0; i < numChildren; i++) {
 		children[i].style.flexGrow = 1;
+
+		const bronxList = document.querySelectorAll(".metadata");
+		bronxList.forEach(element => {
+		  element.style.left = "80%";
+	
+		});
 }
 }
 
@@ -208,6 +234,11 @@ function queensBtn(){
 		for (let i = 0; i < numChildren; i++) {
 		children[i].style.flexGrow = 1;
 }
+		const queensList = document.querySelectorAll(".metadata");
+		queensList.forEach(element => {
+		  element.style.left = "70%";
+	
+		});	
 }
 
 function refresh(){
